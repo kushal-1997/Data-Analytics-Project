@@ -39,6 +39,12 @@ plt.show()
 sns.boxplot(data=df, x="WritingScore")
 plt.show()
 
+sns.boxplot(data=df, x="ReadingScore")
+plt.show()
+
+sns.boxplot(data=df, x="WritingScore")
+plt.show()
+
 print(df["EthnicGroup"].unique()) 
 
 gpA= df.loc[(df["EthnicGroup"]=="group A")].count()
